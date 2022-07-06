@@ -16,7 +16,7 @@
       <div>
         <h1><a href="#">My Portfolio</a></h1>
         <nav>
-          <h2 class="hide">메인내비게이션</h2>      
+          <h2 class="hide">메인내비게이션</h2>
         <ul>
           <li><a href="#wrap">Home</a></li>
           <li><a href="#box02">Info</a></li>
@@ -51,7 +51,7 @@
     <article id="box02">
       <div>
         <h3>About Me</h3>
-        <div>
+        <div class="box">
           <figure>
             <img src="./images/icon/people.png" alt="자신의 이름">
             <figcaption class="hide">나의 소개</figcaption>
@@ -62,7 +62,7 @@
               I can Help You!</p>
             <p class="text">Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
             </p>
-            <p><button>Hear Me</button></p>
+            <p class="btn"><button>Hear Me</button></p>
           </div>
         </div>
       </div>
@@ -71,7 +71,8 @@
     <article id="box03">
       <div>
         <h3>My Skill</h3>
-        <div>
+        <div class="box">
+            <div>
           <p class="title">
             What My Programming <br>
             Skills Included?
@@ -79,7 +80,7 @@
           <p class="text">
             I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.
           </p>
-        </div>
+      </div>
         <ul>
           <li>html5</li>
           <li>css</li>
@@ -94,6 +95,7 @@
           <li>React</li>
           <li>#</li>
         </ul>
+        </div>
       </div>
     </article>
 
@@ -157,36 +159,40 @@
       <div>
         <h3>Contact</h3>
         <div>
-          <p class="title"></p>
-          <p class="text"></p>
+          <p class="title">
+             Have You Any Project?<br>
+          Please Drop a Message</p>
+          <p class="text">Please Drop a Message</p>
         </div>
-        <form action="#" method="post">
-          <fieldset>
-            <legend>contact</legend>
-            <ul>
-              <li>
-                <label for="userName">Name</label>
-                <input type="text" name="userName" id="userName" required>
-              </li>
-              <li>
-                <label for="userEmail">Email</label>
-                <input type="email" name="userEmail" id="userEmail" required>
-              </li>
-              <li>
-                <label for="userTel">Phone</label>
-                <input type="tel" name="userTel" id="userTel" required>
-              </li>
-              <li>
-                <label for="userMessage"></label>
-                <textarea name="userMessage" id="userMessage" 
-                          cols="30" rows="10"></textarea>
-              </li>
-            </ul>
-            <p>
-              <input type="submit" value="submit"></p>
-          </fieldset>
-        </form>
-      </div>
+        <div class="box">
+            <form action="#" method="post">
+              <fieldset>
+                <legend class="hide">contact</legend>
+                <ul>
+                  <li>
+                    <label for="userName">Name</label>
+                    <input type="text" name="userName" id="userName" required>
+                  </li>
+                  <li>
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail" id="userEmail" required>
+                  </li>
+                  <li>
+                    <label for="userTel">Phone</label>
+                    <input type="tel" name="userTel" id="userTel" required>
+                  </li>
+                  <li>
+                    <label for="userMessage"></label>
+                    <textarea name="userMessage" id="userMessage"
+                              cols="30" rows="10"></textarea>
+                  </li>
+                </ul>
+                <p>
+                  <input type="submit" value="submit"></p>
+              </fieldset>
+            </form>
+        </div>
+    </div>
     </article>
     <!-- aside -->
     <aside>
